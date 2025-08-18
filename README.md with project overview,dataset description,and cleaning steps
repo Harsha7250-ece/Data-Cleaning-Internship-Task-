@@ -1,0 +1,28 @@
+# Data Cleaning Internship Task
+
+## Project Overview
+This internship project demonstrates the process of cleaning and standardizing employee attendance data using Power BI and Excel. The goal is to prepare a clean dataset ready for analysis and reporting.
+
+## Dataset
+- *Original Data:* dirty_attendance.xlsx
+- *Cleaned Data:* cleaned_attendance.csv
+
+## Cleaning Steps
+1. Removed duplicate entries based on employee ID and date.
+2. Cleaned employee_id column by removing extra characters like @.
+3. Standardized employee_name to Title Case.
+4. Standardized date column to YYYY-MM-DD.
+5. Added month_name and day_type (Weekday/Weekend) columns.
+6. Mapped status values to abbreviations:
+   - Work From Office → WFO
+   - Birthday Leave → BL
+   - Menstrual Leave → ML
+   - Paid Leave → PL
+    
+## Tools Used
+- Power BI Desktop
+- Microsoft Excel / Power Query
+
+## How to Use
+1. Open Attendance_Cleaning.pbix in Power BI to view visuals and transformations.
+2. Use cleaned_attendance.csv for any further analysis or reporting.
